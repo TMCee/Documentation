@@ -1,0 +1,1 @@
+Required documents for Software Engineering Lab project at the [University of Helsinki CS Dept.](http://cs.helsinki.fi/)

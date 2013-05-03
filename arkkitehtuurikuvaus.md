@@ -1,6 +1,6 @@
 # Komponentit
 ## Asiakaspuolen sovellukset
-TMC-serverin käyttöön tarjotaan kaksi asiakaspuolen työkalua. Toinen näistä on NetBeans kehitysympäristöön integroitu lisäosa, jonka avulla voidaan ladata, päivittää ja lähettää tehtäviä palvelimelle kehityksen lomassa, sekä suorittaa testit lokaalisti. Vaihtoehtoisesti asiakas voi käyttää komentoriviohjelmaa jolla voidaan suorittaa kaikki samat toimminot. Lisää tietoja NB-integraatiosta tässä(tee link) ja komentorivityökalusta tässä(tee link).
+TMC-serverin käyttöön tarjotaan kaksi asiakaspuolen työkalua. Toinen näistä on NetBeans kehitysympäristöön integroitu lisäosa, jonka avulla voidaan ladata, päivittää ja lähettää tehtäviä palvelimelle kehityksen lomassa, sekä suorittaa testit lokaalisti. Vaihtoehtoisesti asiakas voi käyttää komentoriviohjelmaa jolla voidaan suorittaa kaikki samat toimminot. Lisää tietoja NB-integraatiosta tässä(tmc-netbeans)[https://github.com/TMCee/tmc-netbeans] ja komentorivityökalusta tässä(tmc-client)[https://github.com/TMCee/tmc-client].
 
 ## Palvelimen komponentit
 ### TMC-server
