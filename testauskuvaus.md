@@ -5,10 +5,10 @@ Tässä projektissa noudatettiin boy scout -sääntöä, eli codebasen testikatt
 NetBeans-lisäosaan lisätty toiminnallisuus koostuu pääosin C:lle toteutetusta "TestRunner":ista, sekä testituloksten parsijasta C:lle, sekä universaalille projektityypille. Pääosin lisätyt testit testaavat juuri näitä lisäyksiä. Testitulosten parsimisen yksittäiset vaiheet on testattu JUnit yksikkötesteillä. Testien suorittaminen (ohjelmakoodin kääntäminen ja suoritus) on testattu qa funktionaalisilla testeillä.
 
 ## TMC-komentorivityökalun testaus
-TMC-komentirivityökalu on Ruby:lla kirjoitettu sovellus, jonka testit pohjautuvat vahvasti fixtureiden käyttöön. Testit on kirjoitettu RSpec BDD-testikehyksellä siten, että jokaisen toiminnon (päivitys, lähetys, lataus jne.) päätavoite testataan kaikilla reunatapauksilla.
+TMC-komentirivityökalu on Ruby:lla kirjoitettu sovellus, jonka testit pohjautuvat vahvasti fixtureiden käyttöön. Testit on kirjoitettu RSpec BDD-testikehyksellä siten, että jokaisen toiminnon (päivitys, lähetys, lataus jne.) päätavoite testataan reunatapauksilla.
 
 ## TMC-serverin testaus
-TMC-server on myös testattu RSpec BDD testeillä. Useat toiminnallisuudet on täysin riippuvaisia lähetetystä tehtävästä, joten niiden testaaminen vaatii vahvasti fixtureiden käyttämistä. Siksi jokaisesta projektityypistä on tehty oma fixtuurinsa, joista jokaista käytetään jokaisen toiminnallisuuden testaamisessa. TMC-serveriin lisätyt muutokset ovat melko pieniä, joten niiden tekeminen vaati useimmiten vain muutaman testitapauksen lisäämistä.
+TMC-server on myös testattu RSpec BDD testeillä. Useat toiminnallisuudet on täysin riippuvaisia lähetetystä tehtävästä, joten niiden testaaminen vaatii vahvasti fixtureiden käyttämistä. Siksi jokaisesta projektityypistä on tehty oma fixturensa, joista jokaista käytetään jokaisen toiminnallisuuden testaamisessa. TMC-serveriin lisätyt muutokset ovat melko pieniä, joten niiden tekeminen vaati useimmiten vain muutaman testitapauksen lisäämistä.
 
 # Tänne jostain CI:stä ja raportteihin linkki blaablaa
 Tmc-server, tmc-netbeans ja tmc-client kukin ajaa testit ci palvelimella aina muutoksen githubiin pushattaessa.
