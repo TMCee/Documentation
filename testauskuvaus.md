@@ -15,6 +15,6 @@ Tmc-server, tmc-netbeans ja tmc-client kukin ajaa testit ci palvelimella aina mu
 ## TMC-komentorivityökalu
 tmc-client käyttää CInä [travis-ci:tä](http://travis-ci.org), joka on suosittu ryby yms. kevyiden ohjelmien testaamiseen.
 ## TMC-netbeans
-Käyttää ci:nä [jenkinsiä](http://jenkins-ci.org/). Testiraportin löydät (täältä)[http://ci.testmycode.net/job/tmc-netbeans/]
+Käyttää ci:nä [jenkinsiä](http://jenkins-ci.org/). Testiraportin löydät [täältä](http://ci.testmycode.net/job/tmc-netbeans/)
 ## TMC-server
-Käyttää ci:nä [jenkinsiä](http://jenkins-ci.org/). Testiraportin löydät (täältä)[http://ci.testmycode.net/job/tmc-server/]
+Käyttää ci:nä [jenkinsiä](http://jenkins-ci.org/). Testiraportin löydät [täältä](http://ci.testmycode.net/job/tmc-server/)
