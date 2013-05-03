@@ -11,7 +11,7 @@ TMC-komentirivityökalu on Ruby:lla kirjoitettu sovellus, jonka testit pohjautuv
 TMC-server on myös testattu RSpec BDD testeillä. Useat toiminnallisuudet on täysin riippuvaisia lähetetystä tehtävästä, joten niiden testaaminen vaatii vahvasti fixtureiden käyttämistä. Siksi jokaisesta projektityypistä on tehty oma fixturensa, joista jokaista käytetään jokaisen toiminnallisuuden testaamisessa. TMC-serveriin lisätyt muutokset ovat melko pieniä, joten niiden tekeminen vaati useimmiten vain muutaman testitapauksen lisäämistä.
 
 # Tänne jostain CI:stä ja raportteihin linkki blaablaa
-Tmc-server, tmc-netbeans ja tmc-client kukin ajaa testit ci palvelimella aina muutoksen githubiin pushattaessa.
+Tmc-server, tmc-netbeans ja tmc-client kukin ajaa testit ci palvelimella aina muutoksen githubiin pushattaessa. Näiden testeistä generoidaan testi ja kattavuusraportit. Kattavuusmetriikkana toimivat yleiset rivi- ja haarakattavuus.
 ## TMC-komentorivityökalu
 tmc-client käyttää CInä [travis-ci:tä](http://travis-ci.org), joka on suosittu ryby yms. kevyiden ohjelmien testaamiseen.
 ## TMC-netbeans
