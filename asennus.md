@@ -82,4 +82,4 @@ For now, tmc server, like tmc-sandbox, requires installation of `check`, `gcc` (
 `sudo /etc/init.d/tmc-sandbox start`  
 ruby on rails compliant web server.
 # Dev
-`.script/dev-env/
+`.script/dev-env/`
