@@ -1,7 +1,7 @@
 #Installing TMC server to ubuntu 12 LTS
 ## Expectations
 * Ubuntu server installed
-* ruby 1.9.3-p327 installed and available on every user.
+* ruby 1.9.3-p327 installed and available to every user via [rvm](https://rvm.io/).
 
 ## Install some dependencies
 Mainly for tmc-server Ruby on Rails app, java, X if on headless setup
