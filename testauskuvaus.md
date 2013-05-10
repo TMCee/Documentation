@@ -12,9 +12,9 @@ TMC-server on myös testattu RSpec BDD testeillä. Useat toiminnallisuudet on t�
 
 ## CI
 Tmc-server, tmc-netbeans ja tmc-client kukin ajaa testit ci palvelimella aina muutoksen githubiin pushattaessa. Näiden testeistä generoidaan testi ja kattavuusraportit. Kattavuusmetriikkana toimivat yleiset rivi- ja haarakattavuus.
-## TMC-komentorivityökalu
+### TMC-komentorivityökalu
 tmc-client käyttää CInä [travis-ci:tä](http://travis-ci.org), joka on suosittu ryby yms. kevyiden ohjelmien testaamiseen. Testiraportin löydät [täältä](https://travis-ci.org/TMCee/tmc-client)
-## TMC-netbeans
+### TMC-netbeans
 Käyttää ci:nä [jenkinsiä](http://jenkins-ci.org/). Testiraportin löydät [täältä](http://ci.testmycode.net/job/tmc-netbeans/)
-## TMC-server
+### TMC-server
 Käyttää ci:nä [jenkinsiä](http://jenkins-ci.org/). Testiraportin löydät [täältä](http://ci.testmycode.net/job/tmc-server/)
